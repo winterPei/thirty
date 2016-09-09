@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff3f3f3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/picactbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#3d3d39" >
+
+        <Button
+            android:id="@+id/setRegBack"
+            android:layout_width="50dp"
+            android:layout_height="31dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_back_selector"
+            android:onClick="back" />
+
+        <TextView
+            android:id="@+id/collect_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="#000" />
+        <Button
+            android:id="@+id/submitReg"
+            android:layout_width="46dp"
+            android:layout_height="31dp"
+            android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+            android:background="@drawable/btn_submit_selector"
+            android:onClick="submit" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="12dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/set_bg_register_enter"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center_vertical"
+                android:hint="4-14位字符,无特殊符号"
+                android:singleLine="true"
+                android:maxLength="14"
+                android:onClick="enClick"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/userPwd"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center_vertical"
+                android:hint="6-16位数字或字母"
+                android:maxLength="16"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:onClick="enClick"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/userMail"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center_vertical"
+                android:hint="邮箱用于找回密码"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:onClick="enClick"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winter.px.niceview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.NiceMAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.winter.px.okActivity.RegActivity">
+            <intent-filter>
+                <action android:name="com.winter.register" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.winter.px.okActivity.BbsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.winter.bbsActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.winter.px.okActivity.WebViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.winter.WebActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.winter.px.okActivity.NewsWebViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.winter.newsActivity" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.winter.px.okActivity.RegisterActivity">
+            <intent-filter>
+                <action android:name="com.winter.RegActivity"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

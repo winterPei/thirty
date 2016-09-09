@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" >
+
+    <ImageView
+        android:id="@+id/itemImageBG"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bbs_item_main_class_bg_normal"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"/>
+    
+    <ImageView
+        android:id="@+id/leftBBSImageViewId"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/leftBBSTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="aaaaaaaaa"
+        android:layout_toRightOf="@id/leftBBSImageViewId" />
+    
+</RelativeLayout>

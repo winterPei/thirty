@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafaeb"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/setFirstRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_account" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="注册/登录蜂鸟"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/setSecondRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_weibo" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="分享账号管理"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/setThirdRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_bbs" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="我的论坛"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/setFourRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_favorite" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="个人收藏"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/setFiveRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_clear_cache" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="清除应用缓存"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="7.92M"
+                android:textSize="15sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/setSixRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_auto_image" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="自动加载图片"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:id="@+id/autoLoadButton"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:background="@drawable/set_switch_off"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                 />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/setSevenRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_feedback" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="建议反馈"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/setEightRelative"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_icon_about" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="关于我们"
+                android:layout_marginLeft="40dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/set_item_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F3F3">
+
+    <RadioGroup
+        android:id="@+id/picRadioGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#565A62"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="0dp"
+            android:id="@+id/protraitRB"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:background="#565A62"
+            android:textColor="#00f"
+            android:text="人像"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:id="@+id/sceneryRB"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textColor="#9C9C9E"
+            android:gravity="center"
+            android:background="#565A62"
+            android:text="风光"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:id="@+id/zoologyRB"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="#9C9C9E"
+            android:background="#565A62"
+            android:text="生态"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:id="@+id/digitalRB"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#9C9C9E"
+            android:button="@null"
+            android:background="#565A62"
+            android:gravity="center"
+            android:text="数码"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/picTextViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/picRadioGroupId"
+        android:background="#DF6108" />
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/picViewPagerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/picTextViewLine">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

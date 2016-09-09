@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4eded">
+
+    <ImageView
+        android:id="@+id/LeftImageView"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/gridLeftTitle"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LeftImageView"
+        android:layout_marginLeft="30dp"
+        android:lines="2"
+        android:singleLine="true"
+        android:text="hello"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/RightImageView"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/gridRightTitle"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:singleLine="true"
+        android:text="qqqqqq"
+        android:textColor="#000"
+        android:layout_below="@id/LeftImageView"
+        android:layout_alignLeft="@id/RightImageView"
+        android:layout_alignStart="@id/RightImageView" />
+
+</RelativeLayout>
